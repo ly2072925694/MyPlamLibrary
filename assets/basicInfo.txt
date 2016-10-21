@@ -1,0 +1,1 @@
+{"Departments":"计算机科学与工程","E_mail":"123123","LendedNum":"0","Major":"计算机科学与技术","Max":"50","Phone":"18875011972","UserId":"70134","UserName":"刘勇"}

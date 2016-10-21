@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:library="http://schemas.android.com/apk/res/com.tommy.myplamlibrary"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cpu.schoolpartner.ui.MainActivity" 
+    android:orientation="vertical" >
+    
+    <com.tommy.myplamlibrary.view.HeaderView
+        android:id="@+id/title_view"
+		android:layout_width="fill_parent"
+		android:layout_height="45dp"        
+		library:header_title="掌上图书馆"
+		library:show_back="true"
+		library:back_icon="@drawable/icon_me"
+		android:background="@color/blue"
+        >
+    </com.tommy.myplamlibrary.view.HeaderView>
+	<FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/gray" >
+
+        <RelativeLayout
+            android:id="@+id/product_layout"
+            android:layout_width="0dp" 
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/product_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_main_home"
+                     />
+
+                <TextView
+                    android:id="@+id/product_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="首页"
+                    android:textSize="18sp"
+                    android:textColor="#D6D6D6" />
+            </LinearLayout>
+        </RelativeLayout>
+       	<RelativeLayout 
+            android:id="@+id/me_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/me_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_main_record"
+                     />
+
+                <TextView
+                    android:id="@+id/me_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="借阅记录"
+                    android:textSize="18sp"
+                    android:textColor="#D6D6D6" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    
+</LinearLayout>

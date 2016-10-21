@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPlamLibrary</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+    <string name="home">首页</string>
+     <string name="user">个人主页</string>
+     <string name="borrow">借阅记录</string>
+     
+     <!-- activity_basic_information -->
+	 <string name="name">姓		名</string>
+	 <string name="name_ex">张三</string>
+	 <string name="borrow_num_baisc">用户ID</string>
+	 <string name="professional_basic">专		业</string>
+	 <string name="professional_basic_ex">计算机科学与技术</string>
+	 <string name="department_basic">院		系</string>
+	 <string name="department_basic_ex">计算机科学与工程</string>
+	 <string name="phone">电		话</string>
+	 <string name="phone_ex">1234567890</string>
+	 <string name="email">邮		箱</string>
+	 <string name="email_ex">11334254243@163.com</string>
+	 <string name="borrow_max_basic">借阅上限</string>
+	 <string name="borrow_max_basic_ex">10</string>
+	 <string name="borrow_already_basic">已借数量</string>
+	 <string name="borrow_already_basic_ex">3</string>
+	 
+	 <!-- activity_edit_data -->
+	 <string name="edit_number">请输入新的手机号码</string>
+	 <string name="edit_number_email">请输入新的邮箱</string>
+     
+	 <!-- activity_home -->
+	 <string name="search_home">书名/作者/出版社</string>
+	 <string name="title">图片标题</string>
+	 
+	 <!-- activity_networkerror -->
+	 <string name="no_network">无网络</string>
+	 <string name="network">请你检查您的手机是否联网，点击按钮重新加载</string>
+	 <string name="reload">重新加载</string>
+	 
+	  <!-- activity_search -->
+     <string name="edt_msg">书名/作者/出版社</string>
+     <string name="search">搜索</string>
+	 
+     <!-- activity_user -->
+     <string name="user_center">个人中心</string>
+     <string name="borrow_num">5</string>
+     <string name="borrow_enable">可借数量</string>
+     <string name="user_name">张三</string>
+     <string name="borrow_record">借阅记录</string>
+     <string name="user_id">11303070108</string>
+     <string name="basic_massage">基本资料</string>
+     <string name="edit_massage">修改资料</string>
+     <string name="edit_password">修改密码</string>
+     
+     <!-- alert_book -->
+     <string name="please_borrow">请到图书馆借阅本书</string>
+     <string name="sure">确定</string>
+    
+     
+     <!-- borrow_record_item -->
+     <string name="bookname_record">C语言基础教程</string>
+     <string name="left_time">待归还</string>
+     <string name="borrow_time">借书时间：</string>
+     <string name="borrow_data">2015_10_11</string>
+     <string name="maturity_time">到期时间：</string>
+     <string name="maturity_data">2015_10_11</string>
+    
+      <!-- edit_password -->
+    <string name="reset_password">重置密码</string>
+    
+    <string name="book_name_search">书名检索</string>
+    <string name="library_search">馆藏查询</string>
+    <string name="book_search">图书检索</string>
+    <string name="my_manage">个人信息</string>
+    <string name="book_name">*****</string>
+    <string name="writer">作者：</string>
+    <string name="time">出版时间：</string>
+    <string name="library_list">图书列表</string>
+	<string name="network_wrong">当前网络不可用！请检查网络设置！</string>
+    
+    <!--library_book  --> 
+    <string name="book">C语言基础</string>
+	<string name="publish">出版社：</string>
+	<string name="publish_ex">人民教育出版社</string>
+		
+     <!-- login -->
+     <string name="back">返回</string>
+     <string name="edit_userid">请输入通行证号</string>
+     <string name="put_password">请输入登录密码</string>
+     <string name="login">登录</string>
+     <string name="save">保存</string>
+     <string name="password">密码</string>
+     <string name="old_password">请输入原密码</string>
+     <string name="new_password">请输入新密码</string>
+     <string name="again_password">请再次输入密码</string>
+    
+	 
+	 <string name="library_intraduce">\t\t重庆理工大学图书馆是在1940年创建的兵工署第11技工学校中山图书室基础上。
+	      历经70余年积淀建成重庆理工大学中山图书馆。\n
+	     \t\t 图书馆建筑面积约32000平米，拥有2800多个阅览座位，学习环境休闲、便捷和温馨。
+	     经过多年的建设，形成了集文献信息收集与传播、图书阅览与多媒体阅览等多功能于一体的以自动化、信息化和数字化为标志的现代化图书馆。 \n
+	    \t\t 截止2015年6月30日，图书馆拥有各类文献资源390余万册（件）形成了纸本文献、电子文献和多媒体文献共存的馆藏体系。
+	     拥有中国知网（CNKI）、超星、维普、IEEE、ELsevier、Ei、Springer、SAE等国内外知名数据库35个，
+	     为学校教学科研工作提供了有力的文献资源保障。\n\t\t通过wifi全覆盖、自助借还、移动图书馆和信息资源的深层次开发与利用等，
+	     创建学习与休闲的一体化空间、建成先进校园文化的集散地，打造了“净化心灵的休闲阅读场所”的理念。 \n
+	     \t\t图书馆现有工作人员62人，其中馆员研究生以上学历18人、副高级以上职称15人，
+	     建成了一支具有较深厚的图情专业知识和现代信息技术富有朝气的队伍，为学校教学科研服务奠定坚实人才基础。\n
+	   \t\t  重庆理工大学中山图书馆在广大读者的关注下成长，图书馆将以更科学的管理、更齐备的功能、更浓厚的文化氛围为广大读者提供更优质的服务！
+	 </string>
+</resources>

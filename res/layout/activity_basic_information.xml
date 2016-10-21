@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/buttom_background">
+    <RelativeLayout 
+        android:id="@+id/edit_data_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue_background"
+        >
+        <ImageView 
+            android:id="@+id/back_basic_information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_white"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/basic_massage"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            />
+        
+    </RelativeLayout>
+    <ScrollView 
+        android:id="@+id/layout_basic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout 
+                android:id="@+id/layout_name_basic"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/txt_background"
+                >
+                <TextView 
+                    android:id="@+id/txt_name_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textColor="@color/gray_qian"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView 
+                    android:id="@+id/txt_username_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_ex"
+                    android:layout_toRightOf="@id/txt_name_basic"
+                    android:textColor="@color/word_color"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                
+            </RelativeLayout>
+            
+            
+            <RelativeLayout 
+                android:id="@+id/layout_borrow_num_basic"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/txt_background"
+                android:layout_below="@id/layout_name_basic"
+                >
+                <TextView 
+                    android:id="@+id/txt_borrow_num_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/borrow_num_baisc"
+                    android:textColor="@color/gray_qian"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView 
+                    android:id="@+id/txt_userid_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_id"
+                    android:layout_toRightOf="@id/txt_borrow_num_basic"
+                    android:textColor="@color/word_color"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                
+            </RelativeLayout>
+            
+            
+            <RelativeLayout 
+                android:id="@+id/layout_professional_basic"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/txt_background"
+                android:layout_below="@id/layout_borrow_num_basic"
+                >
+                <TextView 
+                    android:id="@+id/txt_professional_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/professional_basic"
+                    android:textColor="@color/gray_qian"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView 
+                    android:id="@+id/txt_professional_basic_y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/professional_basic_ex"
+                    android:layout_toRightOf="@id/txt_professional_basic"
+                    android:textColor="@color/word_color"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                
+            </RelativeLayout>
+            
+            
+            <RelativeLayout 
+                android:id="@+id/layout_department_basic"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/txt_background"
+                android:layout_below="@id/layout_professional_basic"
+                >
+                <TextView 
+                    android:id="@+id/txt_department_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/department_basic"
+                    android:textColor="@color/gray_qian"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView 
+                    android:id="@+id/txt_department_basic_y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/department_basic_ex"
+                    android:layout_toRightOf="@id/txt_department_basic"
+                    android:textColor="@color/word_color"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                
+            </RelativeLayout>
+            
+            
+            <RelativeLayout 
+                android:id="@+id/layout_phone_basic"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/txt_background"
+                android:layout_below="@id/layout_department_basic"
+                >
+                <TextView 
+                    android:id="@+id/txt_phone_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone"
+                    android:textColor="@color/gray_qian"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView 
+                    android:id="@+id/txt_phone_num_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_ex"
+                    android:layout_toRightOf="@id/txt_phone_basic"
+                    android:textColor="@color/word_color"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                
+            </RelativeLayout>
+            
+            
+            <RelativeLayout 
+                android:id="@+id/layout_email_basic"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/txt_background"
+                android:layout_below="@id/layout_phone_basic"
+                >
+                <TextView 
+                    android:id="@+id/txt_email_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"
+                    android:textColor="@color/gray_qian"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView 
+                    android:id="@+id/txt_email_basic_y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_ex"
+                    android:layout_toRightOf="@id/txt_email_basic"
+                    android:textColor="@color/word_color"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                
+            </RelativeLayout>
+            
+            
+            
+            <RelativeLayout 
+                android:id="@+id/layout_borrow_max_basic"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/txt_background"
+                android:layout_below="@id/layout_email_basic"
+                >
+                <TextView 
+                    android:id="@+id/txt_borrow_max_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/borrow_max_basic"
+                    android:textColor="@color/gray_qian"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView 
+                    android:id="@+id/txt_max_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/borrow_max_basic_ex"
+                    android:layout_toRightOf="@id/txt_borrow_max_basic"
+                    android:textColor="@color/word_color"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                
+            </RelativeLayout>
+            
+            
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/txt_background"
+                android:layout_below="@id/layout_borrow_max_basic"
+                >
+                <TextView 
+                    android:id="@+id/txt_borrow_already_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/borrow_already_basic"
+                    android:textColor="@color/gray_qian"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView 
+                    android:id="@+id/txt_borrow_basic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/professional_basic_ex"
+                    android:layout_toRightOf="@id/txt_borrow_already_basic"
+                    android:textColor="@color/word_color"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    />
+                
+            </RelativeLayout>
+            
+        </RelativeLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/txt_background">
+    <RelativeLayout 
+        android:id="@+id/search_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/buttom_background"
+        >
+        <ImageView 
+            android:id="@+id/img_back"
+            android:layout_width="23dp"
+            android:layout_height="25dp"
+            android:background="@color/buttom_background"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            
+            />
+        <ImageView 
+            android:id="@+id/img_se"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_back"
+            android:src="@drawable/search"
+            
+            />
+        <EditText 
+            android:id="@+id/edt_msg"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="@string/edt_msg"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_se"
+            android:background="@color/white"
+            />
+        <ImageView 
+            android:id="@+id/img_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/edt_msg"
+            android:layout_marginRight="13dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/search_btn"
+            />
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/library_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+    
+</LinearLayout>

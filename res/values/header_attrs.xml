@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="header">
+        <attr name="header_title" format="reference|string" />
+        <attr name="show_back" format="boolean" />
+        <attr name="show_button" format="boolean" />
+        <attr name="button_bg" format="reference" />
+        <attr name="back_icon" format="reference"/>
+    </declare-styleable>
+</resources>

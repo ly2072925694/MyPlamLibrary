@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/txt_background"
+    >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <TextView 
+            android:id="@+id/txt_no_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_network"
+            android:textColor="@color/word_color"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            />
+        <ImageView 
+            android:id="@+id/img_wifi"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/wifi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@id/txt_no_network"
+            />
+        <TextView 
+            android:id="@+id/txt_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/network"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txt_no_network"
+            
+            />
+        <TextView 
+            android:id="@+id/txt_reload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_three"
+            android:text="@string/reload"
+            android:textColor="@color/word_color"
+            android:paddingTop="10dp"
+            android:paddingLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txt_network"
+            />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

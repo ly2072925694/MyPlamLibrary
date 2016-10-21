@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/txt_background">
+    <RelativeLayout 
+        android:id="@+id/borrow_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue_background"
+        >
+        <ImageView 
+            android:id="@+id/back_borrow_record_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_white"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/borrow_record"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            />
+        
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/list_borrow_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+    
+
+</LinearLayout>
